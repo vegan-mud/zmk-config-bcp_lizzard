@@ -1,0 +1,6 @@
+config SHIELD_LIZZARD_LEFT
+    def_bool $(shields_list_contains,lizzard_left)
+  
+config SHIELD_LIZZARD_RIGHT
+    def_bool $(shields_list_contains,lizzard_right)
+  
